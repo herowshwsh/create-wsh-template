@@ -18,7 +18,7 @@
   ],
   "author": "wwsshh",
   "bin": {
-    "wwsshh": "bin/index.js"
+    "create-wsh-cli": "bin/index.js"
   },
   "files": [
     "dist",
