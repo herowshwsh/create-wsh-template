@@ -1,0 +1,54 @@
+{
+  "name": "create-wsh-template",
+  "version": "0.0.1",
+  "description": "wsh-通用模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
+  },
+  "keywords": [
+    "vue3",
+    "vue",
+    "cli",
+    "ts",
+    "ui",
+    "js",
+    "wsh"
+  ],
+  "author": "wwsshh",
+  "bin": {
+    "wwsshh": "bin/index.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@inquirer/prompts": "^7.4.0",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/figlet": "^1.7.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.17.16",
+    "axios": "^1.8.4",
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.3.0",
+    "lodash": "^4.17.21",
+    "log-symbols": "^7.0.0",
+    "progress-estimator": "^0.3.1",
+    "rollup": "^4.37.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "simple-git": "^3.27.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "rollup-plugin-node-externals": "5.0"
+  }
+}
