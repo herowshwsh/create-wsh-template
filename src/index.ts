@@ -1,7 +1,7 @@
 import { Command } from "commander";
 import { version } from "../package.json";
 import { create } from "../command/create";
-const program = new Command("create-wsh-template");
+const program = new Command("create-wsh-cli");
 program.version(version, "-v", "--version");
 program
   .command("create")

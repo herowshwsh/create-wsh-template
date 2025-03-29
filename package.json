@@ -1,5 +1,5 @@
 {
-  "name": "create-wsh-template",
+  "name": "create-wsh-cli",
   "version": "0.0.1",
   "description": "wsh-通用模板",
   "main": "index.js",

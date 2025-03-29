@@ -16,7 +16,7 @@ const logger = createLogger({
 });
 
 const goodPrinter = async () => {
-  //   const data = await figlet("create-wsh-template");
+  //   const data = await figlet("create-wsh-cli");
   //   console.log(chalk.rgb(40, 156, 193).visible(data));
 };
 
@@ -40,9 +40,7 @@ export const clone = async (
     // goodPrinter();
     console.log();
     console.log(chalk.blueBright(`==================================`));
-    console.log(
-      chalk.blueBright(`=== 欢迎使用 create-wsh-template 脚手架 ===`)
-    );
+    console.log(chalk.blueBright(`=== 欢迎使用 create-wsh-cli 脚手架 ===`));
     console.log(chalk.blueBright(`==================================`));
     console.log();
 

@@ -75,7 +75,7 @@ export const checkVersion = async (name: string, version: string) => {
     );
     console.log(
       `可使用： ${chalk.yellow(
-        "npm install create-wsh-template@latest"
+        "npm install create-wsh-cli@latest"
       )}，或者使用：${chalk.yellow("wsh update")}更新`
     );
   }

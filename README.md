@@ -1,4 +1,4 @@
-#  create-wsh-template
+#  create-wsh-cli
 
 
 ## 📖简介
@@ -8,23 +8,23 @@
 ## 📦 安装
 
 ```bash
-npm install create-wsh-template -g
+npm install create-wsh-cli -g
 ```
 ## 🚩使用
 
 ```bash
 # 使用模板创建新项目
-create-wsh-template create 
+create-wsh-cli create 
 
 # 执行项目文件夹名称并选择模板创建新项目
-create-wsh-template  create [projectName]
+create-wsh-cli  create [projectName]
 
 # 更新脚手架到最新版本
-create-wsh-template  update
+create-wsh-cli  update
 
 # 查看脚手架版本
-create-wsh-template  -v
-create-wsh-template  --version
+create-wsh-cli  -v
+create-wsh-cli  --version
 
 ```
 
