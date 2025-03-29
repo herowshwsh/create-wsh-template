@@ -15,12 +15,12 @@ export interface TemplateInfo {
 
 export const templates: Map<string, TemplateInfo> = new Map([
   [
-    "测试一",
+    "CI/CD-github",
     {
-      name: "测试一下",
-      downloadUrl: "https://gitee.com/wsh001/uniapp-vue3.git",
-      description: "测试一描述",
-      branch: "master",
+      name: "CI/CD-github",
+      downloadUrl: "https://github.com/herowshwsh/ci-cd.git",
+      description: "CI/CD-github模版",
+      branch: "main",
     },
   ],
   [
