@@ -1,4 +1,5 @@
-#  create-wsh-cli
+#  create-wsh-cli 
+npm
 
 
 ## 📖简介
