@@ -1,6 +1,6 @@
 {
   "name": "create-wsh-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "wsh-通用模板",
   "main": "index.js",
   "scripts": {
