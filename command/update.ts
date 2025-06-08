@@ -11,7 +11,7 @@ const spinner = ora({
 export function update() {
   spinner.start();
   process.exec(
-    "npm install  create-wsh-cli@latest -g",
+    "npm install create-wsh-cli@latest -g",
     (err, stdout, stderr) => {
       spinner.stop();
       if (err) {
