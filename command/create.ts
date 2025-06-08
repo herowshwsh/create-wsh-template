@@ -110,7 +110,7 @@ export async function create(projectName?: string) {
   }
 
   //   // 检查版本更新
-  // await checkVersion(name, version);
+  await checkVersion(name, version);
 
   const templateName = await select({
     message: "请选择模板",
