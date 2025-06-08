@@ -24,11 +24,11 @@ export const templates: Map<string, TemplateInfo> = new Map([
     },
   ],
   [
-    "测试二",
+    "node-service-template",
     {
       name: "测试一下",
-      downloadUrl: "git@gitee.com:wsh001/uniapp-vue3.git",
-      description: "测试二描述",
+      downloadUrl: "https://gitee.com/wsh001/node-service-template.git",
+      description: "后端node服务接口模版",
       branch: "master",
     },
   ],
